@@ -25,7 +25,7 @@ let baseURI = '/apps/' + Config.HEROKU.APP_NAME;
 
 var dd = ''
 var errmsg = ''
-if (Config.LANG == 'TR') dd = 'Sunucudaki dosyanın içini yazdırır.', errmsg = '*Aradığın Dosya Sunucuda Mevcut Değil!*'
+if (Config.LANG == 'TR') dd = 'Ali Bey Sunucudaki dosyanın içini yazdırır.', errmsg = '*Ali Bey Aradığın Dosya Sunucuda Mevcut Değil!*'
 if (Config.LANG == 'EN') dd = 'Prints the inside of the file on the server.', errmsg = '*The file you are looking for is not available on the server!*'
 if (Config.LANG == 'AZ') dd = 'Faylın mənbə kodlarını serverdə göstərir.', errmsg = '*Axtardığınız fayl serverdə yoxdur!*'
 if (Config.LANG == 'ES') dd = 'Imprime el interior del archivo en el servidor.', errmsg = '*¡El archivo que está buscando no está disponible en el servidor!*'
@@ -46,7 +46,7 @@ Asena.addCommand({pattern: 'print ?(.*)', fromMe: true, desc: dd}, (async (messa
 var bdesc = ''
 var berr = ''
 var need_way = ''
-if (Config.LANG == 'TR') bdesc = 'Sunucu içindeki ses, video ve fotoğrafları gönderir.', berr = '*Aradığın Dosya Sunucuda Mevcut Değil!*', need_way = '*Dosya Yolu Girmen Gerekiyor!*'
+if (Config.LANG == 'TR') bdesc = 'Ali Bey Sunucu içindeki ses, video ve fotoğrafları gönderir.', berr = '*Ali Bey Aradığın Dosya Sunucuda Mevcut Değil!*', need_way = '*Ali BeyDosya Yolu Girmen Gerekiyor!*'
 if (Config.LANG == 'EN') bdesc = 'Sends audio, video and photos inside the server.', berr = '*The file you are looking for is not available on the server!*', need_way = '*File Path Required!*'
 if (Config.LANG == 'AZ') bdesc = 'Server daxilində səs, video və fotoşəkillər göndərir.', berr = '*Axtardığınız fayl serverdə yoxdur!*', need_way = '*Fayl yolu tələb olunur!*'
 if (Config.LANG == 'HI') bdesc = 'सर्वर के अंदर ऑडियो, वीडियो और फोटो भेजता है', berr = '*आप जिस फ़ाइल की तलाश कर रहे हैं वह सर्वर पर उपलब्ध नहीं है!*', need_way = '*फ़ाइल पथ आवश्यक!*'
@@ -60,10 +60,10 @@ Asena.addCommand({pattern: 'bashmedia ?(.*)', fromMe: wk_q, desc: bdesc, usage: 
     var id = message.jid
     try {
         if (match[1].includes('jpg') || match[1].includes('tiff') || match[1].includes('raw') || match[1].includes('dng') || match[1].includes('png') || match[1].includes('jpeg')) {
-            await message.client.sendMessage(id,fs.readFileSync(`/root/WhatsAsenaDuplicated/${match[1]}`), MessageType.image, {caption: 'Made by WhatsAsena' })
+            await message.client.sendMessage(id,fs.readFileSync(`/root/WhatsAsenaDuplicated/${match[1]}`), MessageType.image, {caption: 'Made by Bewiroff' })
         }
         else if (match[1].includes('mp4') || match[1].includes('avi') || match[1].includes('webm') || match[1].includes('mkv') || match[1].includes('mpeg')) {
-            await message.client.sendMessage(id,fs.readFileSync(`/root/WhatsAsenaDuplicated/${match[1]}`), MessageType.video, {caption: 'Made by WhatsAsena' });
+            await message.client.sendMessage(id,fs.readFileSync(`/root/WhatsAsenaDuplicated/${match[1]}`), MessageType.video, {caption: 'Made by Bewiroff' });
         }
         else if (match[1].includes('mp3') || match[1].includes('waw') || match[1].includes('flac') || match[1].includes('weba') || match[1].includes('ogg') || match[1].includes('m4a')) {
             await message.client.sendMessage(id,fs.readFileSync(`/root/WhatsAsenaDuplicated/${match[1]}`), MessageType.audio);
@@ -79,7 +79,7 @@ let wk_ad = Config.WORKTYPE == 'public' ? false : true
 var addsdesc = ''
 var rep_add = ''
 var suc_add = ''
-if (Config.LANG == 'TR') addsdesc = 'Sunucuya resim, ses veya video yükler.', rep_add = '*Herhangi Bir Medya Mesajına Yanıt Ver!*', suc_add = '*Medya Sunucuya Eklendi! ✅*'
+if (Config.LANG == 'TR') addsdesc = 'Sunucuya resim, ses veya video yükler.', rep_add = '*Ali Bey Herhangi Bir Medya Mesajına Yanıt Ver!*', suc_add = '*Ali Bey Medya Sunucuya Eklendi! ✅*'
 if (Config.LANG == 'EN') addsdesc = 'Uploads image, audio or video to the server.', rep_add = '*Reply to Any Media Message!*', suc_add = '*Media Added to Server! ✅*'
 if (Config.LANG == 'AZ') addsdesc = 'Serverə şəkil, səs və ya video yükləyir.', rep_add = '*Hər hansı bir Mediya Mesajına Cavab!*', suc_add = '*Serverə Media əlavə edildi! ✅*'
 if (Config.LANG == 'HI') addsdesc = 'सर्वर पर छवि, ऑडियो या वीडियो अपलोड करता है।', rep_add = '*किसी भी मीडिया संदेश का उत्तर दें!*', suc_add = '*मीडिया सर्वर में जोड़ा गया! ✅*'
@@ -154,7 +154,7 @@ async function antlch() {
 antlch()
 var ldc = ''
 if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
-if (Config.LANG == 'TR') ldc = '*‎Link Tespit Edildi!*'
+if (Config.LANG == 'TR') ldc = '*‎Ali Bey Link Tespit Edildi!*'
 if (Config.LANG == 'EN') ldc = '*Link Detected!*'
 if (Config.LANG == 'ML') ldc = '*ലിങ്ക് കണ്ടെത്തി!*'
 if (Config.LANG == 'ID') ldc = '*Tautan Terdeteksi!*'
@@ -207,7 +207,7 @@ Asena.addCommand({pattern: 'term ?(.*)', fromMe: true, desc: Lang.TERM_DESC}, (a
 }));
 let wk = Config.WORKTYPE == 'public' ? false : true
 var medinfo = ''
-if (Config.LANG == 'TR') medinfo = 'Yanıtlanan videonun teknik bilgileri gösterir.'
+if (Config.LANG == 'TR') medinfo = 'Ali Bey Yanıtlanan videonun teknik bilgileri gösterir.'
 if (Config.LANG == 'EN') medinfo = 'Shows the technical information of the replied video.'
 if (Config.LANG == 'AZ') medinfo = 'Cavab verilən videonun texniki məlumatlarını göstərir.'
 if (Config.LANG == 'ES') medinfo = 'Muestra información técnica del video respondido.'
@@ -260,7 +260,7 @@ Asena.addCommand({pattern: 'mediainfo$', fromMe: wk, desc: medinfo}, (async (mes
 var sucmsg = ''
 var pmmm = ''
 var psmm = ''
-if (Config.LANG == 'TR') sucmsg = '*Mesaj Başarıyla Gönderildi ✅*', pmmm = 'Yanıt verilen kişiye özelden mesaj gönderir.', psmm = 'Yanıt verilen kişiye özelden sesli mesaj gönderir.'
+if (Config.LANG == 'TR') sucmsg = '*Ali Bey Mesaj Başarıyla Gönderildi ✅*', pmmm = 'Ali Bey Yanıt verilen kişiye özelden mesaj gönderir.', psmm = 'Ali Bey Yanıt verilen kişiye özelden sesli mesaj gönderir.'
 if (Config.LANG == 'EN') sucmsg = '*Message Sent Successfully ✅*', pmmm = 'Sends a private message to the replied person.', psmm = 'Sends a private voice message to the respondent.'
 if (Config.LANG == 'AZ') sucmsg = '*Mesaj Uğurla Göndərildi ✅*', pmmm = 'Cavablandırılan şəxsə xüsusi mesaj göndərir.', psmm = 'Cavabdehə xüsusi səs mesajı göndərir.'
 if (Config.LANG == 'ES') sucmsg = '*Mensaje enviado con éxito ✅*', pmmm = 'Envía un mensaje privado a la persona que respondió.', psmm = 'Envía un mensaje de voz privado al encuestado.'
