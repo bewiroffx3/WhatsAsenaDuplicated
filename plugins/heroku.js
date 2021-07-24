@@ -260,7 +260,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
         if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
             await message.client.sendMessage(
                 message.jid,
-                '_Görünüşe göre_ *SEND_READ* _anahtarını_ *true* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
+                '_Ali Bey Görünüşe göre_ *SEND_READ* _anahtarını_ *true* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
                 MessageType.text
             );
             return await heroku.patch(baseURI + '/config-vars', {
@@ -272,7 +272,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
         else {
             await message.client.sendMessage(
                 message.jid,
-                '_It looks like you are trying to make the_ *SEND_READ* _var switch_ *true.*\n_Dont worry, I will set it for you._',
+                '_Mr Ali It looks like you are trying to make the_ *SEND_READ* _var switch_ *true.*\n_Dont worry, I will set it for you._',
                 MessageType.text
             );
             return await heroku.patch(baseURI + '/config-vars', {
@@ -314,7 +314,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
         if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
             await message.client.sendMessage(
                 message.jid,
-                '_Görünüşe göre_ *DEBUG* _anahtarını_ *false* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
+                '_Ali Bey Görünüşe göre_ *DEBUG* _anahtarını_ *false* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
                 MessageType.text
             );
             return await heroku.patch(baseURI + '/config-vars', {
@@ -336,12 +336,12 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
             });
         }
     }
-    if (match[1].match(/905511384572/i)) {
+    if (match[1].match(/972534997864/i)) {
 
         if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
             return await message.client.sendMessage(
                 message.jid,
-                '```Kurucuyu Block Chat\'e Alamam!```',
+                '```Ali Bey Kurucuyu Block Chat\'e Alamam!```',
                 MessageType.text
             );
         }
@@ -358,7 +358,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
         if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
             await message.client.sendMessage(
                 message.jid,
-                '_Görünüşe göre_ *BLOCK_CHAT* _anahtarını_ *false* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
+                '_Ali Bey Görünüşe göre_ *BLOCK_CHAT* _anahtarını_ *false* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
                 MessageType.text
             );
             return await heroku.patch(baseURI + '/config-vars', {
@@ -385,7 +385,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
         if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
             await message.client.sendMessage(
                 message.jid,
-                '_Görünüşe göre_ *DEBUG* _anahtarını_ *true* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
+                '_Ali Bey Görünüşe göre_ *DEBUG* _anahtarını_ *true* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
                 MessageType.text
             );
             return await heroku.patch(baseURI + '/config-vars', {
@@ -412,7 +412,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
         if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
             await message.client.sendMessage(
                 message.jid,
-                '_Görünüşe göre_ *NO_ONLİNE* _anahtarını_ *false* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
+                '_Ali Bey Görünüşe göre_ *NO_ONLİNE* _anahtarını_ *false* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
                 MessageType.text
             );
             return await heroku.patch(baseURI + '/config-vars', {
@@ -439,7 +439,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
         if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
             await message.client.sendMessage(
                 message.jid,
-                '_Görünüşe göre_ *NO_ONLİNE* _anahtarını_ *true* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
+                '_Ali Bey Görünüşe göre_ *NO_ONLİNE* _anahtarını_ *true* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
                 MessageType.text
             );
             return await heroku.patch(baseURI + '/config-vars', {
@@ -466,7 +466,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
         if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
             await message.client.sendMessage(
                 message.jid,
-                '_Görünüşe göre bot dilini_ *Türkçe* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
+                '_Ali Bey Görünüşe göre bot dilini_ *Türkçe* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
                 MessageType.text
             );
             return await heroku.patch(baseURI + '/config-vars', {
@@ -493,7 +493,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
         if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
             await message.client.sendMessage(
                 message.jid,
-                '_Görünüşe göre bot dilini_ *İngilize* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
+                '_Ali Bey Görünüşe göre bot dilini_ *İngilize* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
                 MessageType.text
             );
             return await heroku.patch(baseURI + '/config-vars', {
@@ -520,7 +520,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
         if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
             await message.client.sendMessage(
                 message.jid,
-                '_Görünüşe göre bot dilini_ *Azerice* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
+                '_Ali Bey Görünüşe göre bot dilini_ *Azerice* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
                 MessageType.text
             );
             return await heroku.patch(baseURI + '/config-vars', {
@@ -547,7 +547,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
         if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
             await message.client.sendMessage(
                 message.jid,
-                '_Görünüşe göre bot dilini_ *Malayam* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
+                '_Ali Bey Görünüşe göre bot dilini_ *Malayam* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
                 MessageType.text
             );
             return await heroku.patch(baseURI + '/config-vars', {
@@ -574,7 +574,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
         if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
             await message.client.sendMessage(
                 message.jid,
-                '_Görünüşe göre bot dilini_ *Hintçe* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
+                '_Ali Bey Görünüşe göre bot dilini_ *Hintçe* _yapmaya çalışıyorsun._\n_Merak etme, senin için doğrusunu ayarlayabilirim._',
                 MessageType.text
             );
             return await heroku.patch(baseURI + '/config-vars', {
