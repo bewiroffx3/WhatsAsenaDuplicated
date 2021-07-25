@@ -16,6 +16,6 @@ var i = Math.floor(3*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
      
-    await message.client.sendMessage(message.jid, Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made For Bewiroff'}) 
+    await message.client.sendMessage(message.jid, Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '*İsim:* ```Ali Bey```*Tağ:* ```Bewiroff```*İletişim:* ```wa.me/+972534997864```*Bot:* ```Aktiv ✅```'}) 
 
 }));
