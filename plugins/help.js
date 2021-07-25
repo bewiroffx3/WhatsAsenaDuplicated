@@ -1,4 +1,4 @@
-/* Codded by @Ali Bey 
+/* Codded by @phaticusthiccy
 Telegram: t.me/phaticusthiccy
 Instagram: www.instagram.com/kyrie.baran
 */
