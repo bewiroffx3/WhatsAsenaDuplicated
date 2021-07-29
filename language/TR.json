@@ -49,7 +49,7 @@
         },
         "locate": {
             "L_DESC": "Konumunuzu gönderir.",
-            "L_WARN": "Kullanmadan önce konumunuzu açın!"
+            "L_WARN": "Ali Bey Kullanmadan önce konumunuzu açın!"
         },
         "afk": {
             "AFK_DESC": "Sizi AFK yapar.",
@@ -67,12 +67,12 @@
         },
         "evaluators": {
             "TERM_DESC": "Sunucuda shellinde komut çalıştırmanıza imkan tanır.\n⌨️ Örnek: .term ls",
-            "GIVE_ME_CODE": "*Bana bir kod ver!*"
+            "GIVE_ME_CODE": "*Ali Bey Bana bir kod ver!*"
         },
         "nekobin": {
             "NEKO_DESC": "Cevaplanan mesajlar nekobin.com'a eklenecektir.",
-            "NEED_REPLY": "```Lütfen bir mesaja yanıt verin!```",
-            "MUST_TEXT": "```Lütfen herhangi bir mesajı yanıtlayın```"
+            "NEED_REPLY": "```Ali Bey Lütfen bir mesaja yanıt verin!```",
+            "MUST_TEXT": "```Ali Bey Lütfen herhangi bir mesajı yanıtlayın```"
         },
         "heroku": {
             "RESTART_DESC": "WhatsAsena'yı yeniden başlatın",
@@ -167,7 +167,7 @@
             "REMOVEBG_DESC": "Fotoğrafın arka-planını siler.",
             "NEED_PHOTO":"*Ali Bey Bana bir fotoğraf ver!*",
             "NO_API_KEY": "*API Keyiniz Yok!*\nremove.bg adresinden alabilirsiniz.",
-            "RBGING": "```Arkaplan kaldırılıyor...```"
+            "RBGING": "```Ali Bey Arkaplan kaldırılıyor...```"
         },
         "scrapers": {
             "TRANSLATE_DESC": "Google çeviri ile çeviri yapar. Bir mesaja yanıt vermeniz gerekmektedir.\n⌨️ Örnek: .trt tr en",
@@ -191,7 +191,7 @@
             "DOWNLOADING_VIDEO": "```Ali Bey İstediğin Videonu Arıyorum...```",
             "UPLOADING_VIDEO": "```Ali Bey İstediğin Videonu Buldum! Yüklüyorum...```",
             "YT_DESC": "Youtubeda arama yapar.",
-            "NEED_WORDS": "```Lütfen birkaç kelime yazın!```",
+            "NEED_WORDS": "```Ali Bey Lütfen birkaç kelime yazın!```",
             "GETTING_VIDEOS": "```Ali Bey Videolar getiriyorum...```",
             "NOT_FOUND": "*Ali Bey Hiçbir şey bulamadım :(*",
             "SEARCHING": "*🔎 Araştırılıyor...*",
@@ -382,7 +382,7 @@
             "SPAM_DESC": "Siz durdurana kadar spam yapar.\n⌨️ Örnek: .spam test",
             "NEED_WORD": "*Ali Bey Kelime Girmelisin!*",
             "STOP_SPAMDESC": "Spam komutunu durdurur.",
-            "STOP_SPAM": "✅ *Spam Başarıyla Durduruldu! Lütfen biraz bekleyin.*",
+            "STOP_SPAM": "✅ *Ali Bey Spam Başarıyla Durduruldu! Lütfen biraz bekleyin.*",
             "ST_DESC": "Yanıtlanan fotoğrafı veya videoyu stickera dönüştürüp spam olarak gönderir.",
             "ST_ST": "```Ali Bey Lütfen Stcikere Yanıt Vermeyin!```\n```Sadece Video yada Fotoğrafa Yanıt Verin!```",
             "ST_NEED": "```Ali Bey Herhangi Bir Videoya veya Fotoğrafa Yanıt Vermelisin!```",
@@ -406,7 +406,7 @@
         "deepai": {
             "DEEPAI_DESC": "Yapay sinir ağlarını kullanarak en güçlü yapay zeka araçlarını çalıştırır.",
             "TEXT": "*Ali Bey Metin girmelisin! Her ne kadar güçlü bir yapay zeka olsam da düşüncelerini okuyamam!*",
-            "URL": "*Resim URL'si girmelisin!*\n*Örnek:* https://i.hizliresim.com/nrg50b.jpg"
+            "URL": "*Ali Bey Resim URL'si girmelisin!*\n*Örnek:* https://i.hizliresim.com/nrg50b.jpg"
         },
         "ttp": {
             "TTP_DESC": "Yazıyı sade resme dönüştürür.",
@@ -431,7 +431,7 @@
             "TEXT": "*Ali Bey! Seste bunları duydum!:*\n\n"
         },
         "aiscanner": {
-            "NOT_FOUND": "Aradığınız komuta benzer başka bir komut bulamadık..",
+            "NOT_FOUND": "Ali Bey Aradığınız komuta benzer başka bir komut bulamadık..",
             "FOUND": "*Ali Bey Aradığınız komut bulunamadı, benzeyen komutlar:* \n 🔎 ```",
             "SEARCHING": "🔎 Komut bulunamadı.. Benzer komutlar aranıyor..",
             "NEW_UPDATE": "Ali Bey Bot için yeni güncelleme mevcut!"
@@ -445,7 +445,7 @@
             "SUCCESSFULLY_ADDED": "Ali Bey Notunuz başarılı bir şekilde kaydedildi, .notes yazarak notlarınıza ulaşabilirsiniz",
             "UNSUCCESSFUL": "Notunuzu kaydederken bir hatayla karşılaştık, lütfen tekrar deneyin. Eğer sorun devam ediyorsa lütfen WhatsAsena geliştiricileriyle iletişime geçin.",
             "DELETE_USAGE": "Kaydettiğiniz *tüm* notlarınızı siler.",
-            "SUCCESSFULLY_DELETED": "Tüm notlarınız başarılı bir şekilde silindi."
+            "SUCCESSFULLY_DELETED": "*Ali Bey Tüm notlarınız başarılı bir şekilde silindi.*"
         },
         "instagram": {
             "NEED_WORD": "*Ali Bey Lütfen Herhangi Bir Instagram Post Linki Girin!*",
