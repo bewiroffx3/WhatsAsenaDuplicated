@@ -17,7 +17,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
 
 Asena.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
 
-    await message.sendMessage('```Ali Bey Emrinle Chat Temizleniyor...♻️```');
+    await message.sendMessage('Ali Bey Emrinle Chat Temizleniyor...♻️');
     await message.client.modifyChat (message.jid, ChatModification.delete);
-    await message.sendMessage('```Ali Bey Başarıyla Chat Temizlendi...🚮```');
+    await message.sendMessage('Ali Bey Başarıyla Chat Temizlendi...🚮');
 }));
