@@ -5,7 +5,7 @@ const Config = require('../config');
 const Language = require('../language');
 const Lang = Language.getString('admin');
 const mut = Language.getString('mute');
-const END = "clear all messages"
+const END = "tüm mesajları temizle"
 
 async function checkImAdmin(message, user = message.client.user.jid) {
     var grup = await message.client.groupMetadata(message.jid);
@@ -15,9 +15,9 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
-Asena.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'clear ?(.*)', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
 
-    await message.sendMessage('Ali Bey Emrinle Chat Temizleniyor...♻️');
+    await message.sendMessage('Chat Temizleniyor...♻️');
     await message.client.modifyChat (message.jid, ChatModification.delete);
-    await message.sendMessage('Ali Bey Başarıyla Chat Temizlendi...🚮');
+    await message.sendMessage('Chat Temizlendi...🚮');
 }));
